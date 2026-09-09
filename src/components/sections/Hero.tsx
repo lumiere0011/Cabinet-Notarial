@@ -70,7 +70,7 @@ export function Hero() {
               { value: "20+", label: "Années d'expertise" },
               { value: "3 000+", label: "Actes traités" },
               { value: "98%", label: "Clients satisfaits" },
-              { value: "4", label: "Domaines de droit" },
+              { value: "6", label: "Domaines de droit" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="font-heading font-semibold text-2xl lg:text-3xl text-navy">
